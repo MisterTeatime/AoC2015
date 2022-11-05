@@ -5,7 +5,24 @@ fun main() {
     }
 
     fun part2(input: List<String>): Int {
-        return input.size
+        var position = -1
+        var underground = false;
+        
+        input[0].foldIndexed(0) { index, total, c ->
+            if (total < 0 && !underground) {
+                position = index
+                underground = true
+            }
+            when (c){
+                '(' -> total + 1
+                ')' -> total - 1
+                else -> total
+            }
+        }
+        
+        return position
+        
+        
     }
 
     // test if implementation meets criteria from the description, like:
