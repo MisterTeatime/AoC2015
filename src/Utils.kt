@@ -11,7 +11,7 @@ fun readInput(name: String) = File("src", "$name.txt").readLines()
 /**
  * Converts string to md5 hash.
  */
-fun String.md5(): String = BigInteger(1, MessageDigest.getInstance("MD5").digest(toByteArray())).toString(16)
+fun String.md5(): String = BigInteger(1, MessageDigest.getInstance("MD5").digest(toByteArray())).toString(16).padStart(32, '0')
 
 typealias Graph = Map<String, List<String>>
 typealias Path = List<String>

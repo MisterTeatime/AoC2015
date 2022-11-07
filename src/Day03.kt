@@ -42,7 +42,7 @@ fun main() {
 
     // test if implementation meets criteria from the description, like:
     val testInput = readInput("Day03_test")
-    //check(part1(testInput) == 4)
+    check(part1(testInput) == 4)
     check(part2(testInput) == 3)
 
     val input = readInput("Day03")
