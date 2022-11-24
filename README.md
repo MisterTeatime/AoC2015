@@ -7,7 +7,10 @@ In this repository, misterteatime is about to provide solutions for the puzzles 
 - [Day 1](docs/Day01.md)
 - [Day 2](docs/Day02.md)
 - [Day 3](docs/Day03.md)
-
+- [Day 4](docs/Day04.md)
+- [Day 5](docs/Day05.md)
+- [Day 6](docs/Day06.md)
+- [Day 7](docs/Day07.md)
 
 If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
 
