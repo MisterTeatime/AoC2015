@@ -11,6 +11,7 @@ In this repository, misterteatime is about to provide solutions for the puzzles 
 - [Day 5](docs/Day05.md)
 - [Day 6](docs/Day06.md)
 - [Day 7](docs/Day07.md)
+- [Day 8](docs/Day08.md)
 
 If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
 
